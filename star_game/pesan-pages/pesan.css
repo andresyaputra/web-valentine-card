@@ -1,0 +1,54 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg-image {
+    /* Membuat div.fullscreen meliputi seluruh layar */
+    background-image: url('../../img/wallpaperflare.com_wallpaper.jpg');
+    /* Mengatur background agar menutupi seluruh area div */
+    background-size: cover;
+    /* Mengatur posisi background */
+    background-position: center;
+    /* Mengatur div agar meliputi seluruh layar */
+    height: 100%;
+    /* Menambahkan posisi relatif kepada background agar konten lain bisa ditambahkan di atasnya */
+    position: relative;
+  }
+  
+  .kembali {
+    position: absolute;
+    bottom: 100px;
+    justify-items: center;
+    
+  }
+  
+ .pesan-grub{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .pesan{
+  margin-top: 110px;
+  padding: 27px;
+  background-color: rgba(240, 248, 255, 0.705);
+  margin-left: 360px;
+  margin-right: 360px;
+  border-radius: 30px;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 600; 
+  font-style: italic; 
+ }
+ h1{
+  color: #FF00CC;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+ }

@@ -1,0 +1,23 @@
+body {
+    background-image: url(../../img/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #000000;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+}
+
+.kembali {
+    position: absolute;
+    bottom: 100px;
+    justify-items: center;
+    margin-left: 720px;
+  }
